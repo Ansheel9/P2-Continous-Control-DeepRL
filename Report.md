@@ -56,7 +56,7 @@ Parameters used in DQN algorithm:
 Result
 ---
 
-The agent's performance within the Reacher environment was measured by the average score based on 1000 episodes.
+The agent's performance within the Reacher environment was measured by the average score based on 1000 episodes. The model was trained for Version-1 environment.
 
 ![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/plot.png)
 
