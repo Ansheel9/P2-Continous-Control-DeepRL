@@ -1,8 +1,4 @@
----
-title: 'README'
----
-
-# Train a Set of Robotic Arm :robot_face:
+# Train a Set of Robotic Arm
 
 ---
 
@@ -18,7 +14,7 @@ The project is based on Unity Environment. The Agent is trained to follow a targ
 
 | Before Training | After Training |
 | :---: | :---: |
-| ![](BT.gif =600x300) | ![](AT.gif =600x300) |
+| ![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/BT.gif) | ![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/AT.gif) |
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
@@ -84,4 +80,4 @@ To train the agent, start jupyter notebook, open <code> Continous_Control.ipynb 
 
 Plot showing the average score over 100 episode.
 
-![](plot.png)
+![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/plot.png)
