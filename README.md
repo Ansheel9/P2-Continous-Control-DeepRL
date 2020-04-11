@@ -1,4 +1,4 @@
-# Train a double-joint Robotic Arm
+# Train a double-jointed Robotic Arm
 
 ---
 
