@@ -78,6 +78,6 @@ To train the agent, start jupyter notebook, open <code> Continous_Control.ipynb 
 
 ## Result
 
-Plot showing the average score over 100 episode.
+Plot showing the score of the model during training.
 
 ![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/plot.png)
