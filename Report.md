@@ -1,8 +1,3 @@
----
-title: 'Report'
-disqus: Ansheel Banthia
----
-
 Project 2 - Continous Control
 ===
 
@@ -11,9 +6,12 @@ Train a Set of Robotic Arms :robot_face:
 Udacity Deep Reinforcement Learning Nanodegree
 
 ## Table of Contents
+1. [ Summary ](#sum)
+2. [ Learning Algorithm ](#algo)
+3. [ Result ](#res)
+4. [ Ideas of Future Work ](#fut)
 
-[TOC]
-
+<a name="sum"></a>
 ## Summary
 
 The project is based on Unity Environment. The agent is trained to follow target location!
@@ -22,7 +20,8 @@ A reward of +0.1 is provided for each step that the agent's hand is in the goal 
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
-Learning Algorithm
+<a name="algo"></a>
+## Learning Algorithm
 ---
 
 #### Deep Deterministic Policy Gradient (DDPG)
@@ -53,15 +52,17 @@ Parameters used in DQN algorithm:
 - tau: 1e-3
 - Weight Decay: 0
 
+<a name="res"></a>
 Result
 ---
 
 The agent's performance within the Recher environment was measured by the average score based on 1000 episodes.
 
-![](plot.png)
+![](https://github.com/Ansheel9/P2-Continous-Control-DeepRL/blob/master/Images/plot.png)
 
 Environment ended on 147 episode, (having average score of 30.03).
 
+<a name="fut"></a>
 Ideas of Future Work
 ---
 
