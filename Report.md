@@ -42,7 +42,7 @@ There are also a few techniques which contributed significantly towards stabiliz
 
 I used Linear Neural Network architecture. Also, in my experience, I have found Batch normalization to have always improved training and hence, I added Batch normalization layer in both actor and critic.
 
-Parameters used in DQN algorithm:
+Parameters used in DDPG algorithm:
 - Maximum steps per episode: 1000
 - Batch Size: 128
 - Buffer size: 1e5
